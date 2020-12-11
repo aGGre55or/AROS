@@ -140,3 +140,10 @@ MSG_SECTION_WEBSITE
 MSG_SECTION_DATATYPES
 Datatypes
 ;Datatypes
+;
+MSG_SECTION_TESTING
+Тестирование
+; Testing
+MSG_BUILD_CPU
+Эта версия AROS была собрана для процессоров %s.
+; This version of AROS has been built for %s processors.
