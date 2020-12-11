@@ -1,6 +1,6 @@
-## version $VER: Format.catalog 1.0 (24.11.2008)
+## version $VER: Format.catalog 1.0 (11.12.2020)
 ## language russian
-## codeset 0
+## codeset 2104
 ;
 MSG_OK
 OK
