@@ -64,7 +64,7 @@ MSG_MEN_GUISET
 ; GUI settings...
 ;
 MSG_MEN_ABOUT
-О системе
+О системе...
 ; About...
 ;
 MSG_MEN_QUIT
@@ -168,7 +168,7 @@ MSG_MEN_BYSIZE
 ; By size
 ;
 MSG_MEN_BYTYPE
-
+По типу
 ; By type
 ;
 ; ***NEW***
@@ -225,6 +225,17 @@ MSG_MEN_TOOLS
 Инструменты
 ; Tools
 ;
+MSG_MEN_ICONSORTING
+Вкл. автосортировку иконок
+;Enable Automatic Icon Sorting
+;
+MSG_MEN_GROUPICONS
+Иконки групп
+;Group Icons
+;
+MSG_MEN_ICONSCLOSE
+Закрыть
+; Close
 MSG_REALLYQUIT
 Выйти из Wanderer ?
 ; Do you really want to quit Wanderer?
@@ -274,21 +285,33 @@ MSG_EMPTY_TRASH
 ; Empty trash
 ;
 MSG_MEN_PUT_AWAY
-Отложить
+Вернуть
 ; Put away
 ;
+MSG_MEN_SC_PUT_AWAY
+P
+; P
 MSG_MEN_LEAVE_OUT
-Оставить
+Вытащить
 ; Leave out
 ;
+MSG_MEN_SC_LEAVE_OUT
+L
+; L
 MSG_MEN_UNSNAPSHOT
 Забыть
 ; Unsnapshot
 ;
+MSG_MEN_SC_UNSNAPSHOT
+U
+; U
 MSG_MEN_SNAPSHOT
-Запомнить
+Зафиксировать
 ; Snapshot
 ;
+MSG_MEN_SC_SNAPSHOT
+S
+; S
 MSG_REQU_DELETE
 Удалить файл...
 ; Delete file...
@@ -390,7 +413,7 @@ MSG_REQU_FILEUNPROTECT_E
 ; ?
 ;
 MSG_WANDERER_FILEACCESS
-Wanderer: Операции с файлами 
+Wanderer: Операции с файлами
 ; Wanderer file access
 ;
 MSG_WANDERER_FILEACCESS_PROCESSING
@@ -444,4 +467,48 @@ MSG_WANDERER_FILEACCESS_ACTUAL
 MSG_WANDERER_FILEACCESS_TOTAL
 Размер общий:
 ; Overall size:
+;
+MSG_WANDERER_ERROR_FILE_OPERATION
+Ошибка при выполнении файловой операции
+; Error occured while performing file operation
+;
+MSG_FAILED_TO_ALLOCATE_MEMORY
+Ошибка при выделении %d байт памяти
+; Failed to allocate %d bytes of memory
+;
+MSG_FAILED_TO_READ_FILE
+Ошибка при чтении из файла: %s\n
+; Error occured while reading from file: %s\n
+;
+MSG_FAILED_TO_WRITE_TO_FILE
+Ошибка при записи в файл: %s\n
+; Error occured while writing to file: %s\n
+;
+MSG_FAILED_TO_READ_FILE_INFO_BLOCK
+Ошибка чтения дескриптора файла: %s
+; Failed to read file info block for file: %s
+;
+MSG_FAILED_TO_CREATE_DIRECTORY
+Ошибка при создании директории: %s\n
+; Failed to create directory: %s\n
+;
+MSG_FAILED_TO_DELETE_FILE
+Ошибка при удалении файла: %s\n
+; Error occured whiled deleting file: %s\n
+;
+MSG_FAILED_TO_LOCK_PATH
+Ошибка на заблокированном пути: %s
+; Failed to lock path: %s
+;
+MSG_FAILED_TO_READ_DIRECTORY_CONTENT
+Ошибка при чтении из директории: %s\n
+; Error occured while reading from directory: %s\n
+;
+MSG_FAILED_TO_MOVE_FILE
+Ошибка при перемещении файла: %s\n
+; Error occured while moving file: %s\n
+;
+MSG_FAILED_ERROR
+Сообщение об ошибке
+; Errormessage
 ;
