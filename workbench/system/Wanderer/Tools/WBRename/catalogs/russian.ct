@@ -1,6 +1,6 @@
-## version $VER: WBRename.catalog 1.0 (24.11.2008)
+## version $VER: WBRename.catalog 1.0 (11.12.2020)
 ## language russian
-## codeset 0
+## codeset 2104
 ;
 ;
 MSG_TITLE
@@ -12,8 +12,8 @@ MSG_DESCRIPTION
 ; Renames files and drawers
 ;
 MSG_COPYRIGHT
-c2006, AROS Dev Team
-; й2006, AROS Dev Team
+(c)2006, AROS Dev Team
+; (c)2006, AROS Dev Team
 ;
 MSG_WINDOW_TITLE
 Переименование

@@ -1,6 +1,6 @@
-## version $VER: wbnewdrawer.catalog 1.1 (12.9.2006)
+## version $VER: wbnewdrawer.catalog 1.1 (11.12.2020)
 ## language russian
-## codeset 0
+## codeset 2104
 ;
 ;
 ;
@@ -12,7 +12,7 @@ MSG_DESCRIPTION
 Создаёт новую папку
 ;
 MSG_COPYRIGHT
-c2006, AROS Dev Team
+(с)2006, AROS Dev Team
 ;
 MSG_WINDOW_TITLE
 Создать новую папку
