@@ -1,0 +1,160 @@
+## version $VER: SysMon.catalog 1.2 (11.12.2020)
+## language russian
+## codeset 2104
+;
+;
+;
+MSG_APP_NAME
+SysMon
+; SysMon
+;
+MSG_APP_TITLE
+System Monitor
+; System Monitor
+;
+MSG_WINDOW_TITLE
+Системный монитор
+; System Monitor
+;
+MSG_USAGE
+Использование
+; Usage
+;
+MSG_FREQUENCY
+Частота
+; Frequency
+;
+MSG_TAB_TASKS
+Задачи
+; Tasks
+;
+MSG_TAB_CPU
+Процессор(ы)
+; Processors
+;
+MSG_SIMULATED_CPU
+Смоделированный процессор AROS
+; Simulated AROS processor
+;
+MSG_PROCESSOR
+Процессор #%id: %s
+; Processor #%id: %s
+;
+MSG_TASK
+Задача
+; Task
+;
+MSG_PROCESS
+Процесс
+; Process
+;
+MSG_TASK_NAME
+Имя
+; Name
+;
+MSG_TASK_PRIORITY
+Приоритет
+; Priority
+;
+MSG_TASK_TYPE
+Тип
+; Type
+;
+MSG_TASK_READY_WAIT_INIT
+- готово, - в ожидании
+; - ready, - waiting
+;
+MSG_TASK_READY_WAIT
+%ld готово, %ld в ожидании
+; %ld ready, %ld waiting
+;
+MSG_TAB_SYSTEM
+Система
+; System
+;
+MSG_MEMORY_SIZE
+Доступно памяти
+; Memory Size
+;
+MSG_MEMORY_FREE
+Свободно памяти
+; Memory Free
+;
+MSG_VIDEO_SIZE
+Доступно видеопамяти
+; Video Size
+;
+MSG_VIDEO_FREE
+Свободно видеопамяти
+; Video Free
+;
+MSG_TOTAL_RAM
+Всего
+; Total Memory
+;
+MSG_CHIP_RAM
+Chip
+; Chip Memory
+;
+MSG_FAST_RAM
+Fast
+; Fast Memory
+;
+MSG_VIDEO_RAM
+Всего
+; Video Memory
+;
+MSG_VIDEO_WINDOW_TMPL
+%s Окно
+; %s Window
+;
+MSG_CANT_OPEN_TASK_RESOURCE
+Не открыть task.resource\n
+; Can't open task.resource\n
+;
+MSG_PROJECT
+Проект
+; Project
+;
+MSG_REFRESH_SPEED
+Скорость обновления
+; Refresh Speed
+;
+MSG_FAST
+Быстро
+; Fast
+;
+MSG_NORMAL
+Обычно
+; Normal
+;
+MSG_SLOW
+Медленно
+; Slow
+;
+MSG_TASK_TOMBSTONE
+<мертвец>
+; <tombstone>
+;
+MSG_TASK_UNKNOWN
+<неизвестно>
+; <unknown>
+;
+MSG_WINDOW_GART
+Таблица GART
+;
+MSG_DISPLAY_MODE
+Экранный режим
+;
+MSG_LOAD
+Загрузка процессора
+;
+MSG_GUAGE
+Шкала
+;
+MSG_GRAPH
+График
+;
+MSG_GRAPH_PER_PROC
+График на процессор
+;
