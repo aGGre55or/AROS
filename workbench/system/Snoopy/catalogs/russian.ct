@@ -48,6 +48,14 @@ MSG_IGNORE_WB
 Кроме Workbench/Shell
 ; Ignore Workbench/Shell
 ;
+MSG_BREAKPOINT
+Установить breakpoint
+; Set breakpoint
+;
+MSG_MATCH
+Совпадение имени
+; Match name
+;
 MSG_SYSTEM_FUNC
 Системные функции
 ; System Functions
