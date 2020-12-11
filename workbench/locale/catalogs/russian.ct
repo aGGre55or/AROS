@@ -10,7 +10,7 @@ MSG_RESUME(//)
 Продолжить
 ;
 MSG_WARNING_GUI(//)
-Security Warning
+Предупреждение безопасности
 ;
 MSG_LOGINREQ_GUI(//)
 Запрос логина
@@ -22,74 +22,74 @@ MSG_LOGINREQ_CON(//)
 \033[0;0H\033[J\n\n\n     AROS %s at %s\n
 ;
 MSG_LOGINPROMPT_CON(//)
-\n\nLogin    :
+\n\nЛогин    :
 ;
 MSG_PASSWDPROMPT_GUI(//)
-Введите Ваш пароль
+Введите пароль
 ;
 MSG_PASSWDPROMPT_CON(//)
 Пароль :
 ;
 MSG_LOGINFAIL_GUI(//)
-Login Incorrect
+Введён неверный логин
 ;
 MSG_LOGINFAIL_CON(//)
-\n    Login Incorrect !!\n
+\n    Введён неверный логин !!\n
 ;
 MSG_LASTLOGIN(//)
-Logged in on %s, %s at %s.\n\nLast login on %s, %s at %s.
+Авторизация %s, %s в %s.\n\nПоследняя авторизация %s, %s в %s.
 ;
 MSG_FIRSTLOGIN(//)
-Logged in on %s, %s at %s.\n\nNever logged in before.
+Авторизация %s, %s в %s.\n\nЭто впервые.
 ;
-; warning strings
+; строки предупреждений
 ;
 MSG_NOMUFS(100//)
-У Вас должен быть хотя бы один раздел с файловой системой AFFS
+Вы должны иметь хотя бы один раздел с файловой системой AFFS
 ;
 MSG_NOCONFIGFILE(//)
 Ошибка загрузки конфигурационного файла\nИспользуются параметры по умолчанию
 ;
 MSG_BADKEYFILE(//)
-Security violation: Bad or inconsistent keyfile(s) found
+Нарушение безопасности: неверные или несогласованные файлы ключей
 ;
 MSG_BADENTRY_PASSWD(//)
-Найдено неверное значение на строке %ld файла паролей\nЭта линия будет игнорироваться
+Ошибка данных в строке %ld файла паролей\nСтрока будет проигнорирована
 ;
 MSG_BADENTRY_GROUP(//)
-Bad entry found on line %ld of the group file\nThis line will be ignored
+Ошибка данных в строке %ld файла групп\nСтрока будет проигнорирована
 ;
 MSG_BADVALUE_CONFIG(//)
-Bad value(s) found on line %ld of the configuration file\n\
-This value will be ignored
+В строке %ld конфигурационного файла недопустимые данные\n\
+Эти данные будут проигнорированы
 ;
 MSG_BADOPTION_CONFIG(//)
-Bad option found on line %ld of the configuration file\nThis line will be ignored
+В строке %ld конфигурационного файла неверный параметр\nСтрока будет проигнорирована
 ;
 MSG_TOOMANYSECGROUPS(//)
-Too many secondary groups for user with uid %ld\n\
-Line %ld of the group file will be ignored
+Слишком много дополнительных групп у пользователя с uid %ld\n\
+Строка %ld файла групп будет проигнорирована
 ;
-; logfile strings
+; строки лога
 ;
 MSG_LOG_STARTUP(200//)
-Startup
+Запуск
 ;
 MSG_LOG_LOGIN(//)
-Login from %ld to \'%s\'
+Вход %ld на \'%s\'
 ;
 MSG_LOG_LOGINFAIL(//)
-Login from %ld to \'%s\' failed
+Вход %ld на \'%s\' провален
 ;
 MSG_LOG_PASSWD(//)
-Passwd for %ld
+Passwd для %ld
 ;
 MSG_LOG_PASSWDFAIL(//)
-Неверный пароль для %ld
+Неверный пароль %ld
 ;
 MSG_LOG_CHECKPASSWD(//)
-CheckPasswd for %ld
+CheckPasswd для %ld
 ;
 MSG_LOG_CHECKPASSWDFAIL(//)
-CheckPasswd for %ld failed
+CheckPasswd для %ld провален
 ;
