@@ -1,4 +1,4 @@
-## version $VER: hdtoolbox.catalog 1.1 (24.11.2008)
+## version $VER: hdtoolbox.catalog 1.1 (12.12.2020)
 ## codeset 2104
 ## language russian
 ;
@@ -132,4 +132,11 @@ MSG_WriteTableError
 MSG_CreateTableError
 Ошибка при создании таблицы разделов
 ; Error while creating partition table
+;
+WORD_MENU_Partition
+Партиция
+; Partition
+;
+WORD_MENU_CreateMountlist
+Создать mountlist...
 ;
